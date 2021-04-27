@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer" />
+    <title>Document</title>
+    <style>
+        img{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+    <script src="https://lib.baomitu.com/jquery/3.6.0/jquery.js"></script>
+    <script>
+        $.get('http://127.0.0.1:8088/index',function(data){
+            if(data.code == 200){
+                console.log(data)
+            }
+        });
+    </script>
+</body>
+</html>
