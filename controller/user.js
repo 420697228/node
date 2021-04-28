@@ -1,5 +1,4 @@
 const User = require('../db').User;
-
 module.exports = {
   // 用户注册
   async register(ctx, next){
