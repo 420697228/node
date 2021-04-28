@@ -23,7 +23,7 @@
         <van-list
         v-model="loading"
         :finished="finished"
-        finished-text="没有更多了"
+        finished-text="到底了"
         @load="onLoad"
         >
             <div v-for="item in list" :key="item._id" class="msgMain">
